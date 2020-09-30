@@ -16,7 +16,20 @@ incrementCounter = (productName)=>()=>{
     console.log('pn',productName)
     const oldCounter = this.state.productCounter;
 const oldCount = this.state.productCounter[productName] || 0;
- this.setState({
+ this.setState({xport const products = [{
+    name: "Pasta",
+    image: "https://gdg-react-workshop.s3.amazonaws.com/pasta.JPG"
+}, 
+                          {
+    name: "Tomatoes",
+    image: "https://gdg-react-workshop.s3.amazonaws.com/tomato.JPG"
+},
+                          {
+    name: "Tomatoes",
+    image: "https://gdg-react-workshop.s3.amazonaws.com/tomato.JPG"
+},{
+    name: "Bread",
+    image: "https://gdg-react-workshop.s3.amazonaws.com/bread.JPG"
     productCounter:
     {
      ...oldCounter,
