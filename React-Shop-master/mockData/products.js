@@ -1,7 +1,15 @@
 export const products = [{
     name: "Pasta",
     image: "https://gdg-react-workshop.s3.amazonaws.com/pasta.JPG"
-}, {
+}, 
+                          {
+    name: "Tomatoes",
+    image: "https://gdg-react-workshop.s3.amazonaws.com/tomato.JPG"
+},
+                          {
+    name: "Tomatoes",
+    image: "https://gdg-react-workshop.s3.amazonaws.com/tomato.JPG"
+},{
     name: "Bread",
     image: "https://gdg-react-workshop.s3.amazonaws.com/bread.JPG"
 }, {
