@@ -10,7 +10,18 @@ class App extends Component{
     }
 
 
-
+incrementCounter = (productName)=>()=>{
+    console.log('pn',productName)
+    const oldCounter = this.state.productCounter;
+const oldCount = this.state.productCounter[productName] || 0;
+ this.setState({
+    productCounter:
+    {
+     ...oldCounter,
+    [productName]: oldCount +1
+    }
+ })
+}
 
 incrementCounter = (productName)=>()=>{
     console.log('pn',productName)
